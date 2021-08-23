@@ -9,10 +9,10 @@
 
     <meta name="twitter:card" content="summary_large_image"/>
     <meta name="twitter:description" content="カニゴーゴー！（FAゲーム）・マセさんが来る！"/>
-    <meta name="twitter:image" content="https://gachou-vtuber.github.io/kanigogo/kgg_card.jpg"/>
+    <meta name="twitter:image" content="https://kanigogo.s3-ap-northeast-1.amazonaws.com/kgg_card.jpg"/>
     <meta name="twitter:label1" content="Est. reading time"/>
     <meta name="twitter:data1" content="1 minute"/>
-    
+
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -34,11 +34,11 @@
     </div>
     <script>
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/kanigogo_gzip.loader.js";
+      var loaderUrl = buildUrl + "/kanigogo.loader.js";
       var config = {
-        dataUrl: buildUrl + "/kanigogo_gzip.data.gz",
-        frameworkUrl: buildUrl + "/kanigogo_gzip.framework.js.gz",
-        codeUrl: buildUrl + "/kanigogo_gzip.wasm.gz",
+        dataUrl: buildUrl + "/kanigogo.data",
+        frameworkUrl: buildUrl + "/kanigogo.framework.js",
+        codeUrl: buildUrl + "/kanigogo.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "Gokigen J",
         productName: "カニゴーゴー！（FAゲーム）",
